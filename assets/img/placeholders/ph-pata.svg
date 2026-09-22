@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice">
+  <title>Textura decorativa — animais</title>
+  <defs>
+    <linearGradient id="bgPata" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFE8CF"/>
+      <stop offset="100%" stop-color="#ADB385"/>
+    </linearGradient>
+    <filter id="blurPata"><feGaussianBlur stdDeviation="55"/></filter>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgPata)"/>
+  <circle cx="640" cy="180" r="230" fill="#FDF4E5" opacity="0.18" filter="url(#blurPata)"/>
+  <circle cx="120" cy="840" r="260" fill="#25360A" opacity="0.16" filter="url(#blurPata)"/>
+  <g transform="translate(400,500)" opacity="0.24" fill="#FDF4E5">
+    <ellipse cx="0" cy="40" rx="78" ry="60"/>
+    <ellipse cx="-78" cy="-40" rx="30" ry="38"/>
+    <ellipse cx="-26" cy="-78" rx="30" ry="38"/>
+    <ellipse cx="30" cy="-78" rx="30" ry="38"/>
+    <ellipse cx="82" cy="-42" rx="30" ry="38"/>
+  </g>
+</svg>

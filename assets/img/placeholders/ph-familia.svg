@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice">
+  <title>Textura decorativa — família</title>
+  <defs>
+    <linearGradient id="bgFamilia" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#647040"/>
+      <stop offset="100%" stop-color="#25360A"/>
+    </linearGradient>
+    <filter id="blurFamilia"><feGaussianBlur stdDeviation="55"/></filter>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgFamilia)"/>
+  <circle cx="140" cy="220" r="240" fill="#FAB534" opacity="0.2" filter="url(#blurFamilia)"/>
+  <circle cx="660" cy="800" r="250" fill="#FDF4E5" opacity="0.12" filter="url(#blurFamilia)"/>
+  <g transform="translate(400,500)" opacity="0.22" fill="none" stroke="#FDF4E5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 0 90 C -140 0 -130 -110 -50 -110 C -20 -110 -5 -95 0 -80 C 5 -95 20 -110 50 -110 C 130 -110 140 0 0 90 Z"/>
+  </g>
+</svg>

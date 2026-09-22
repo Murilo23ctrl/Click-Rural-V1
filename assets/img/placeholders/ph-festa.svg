@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice">
+  <title>Textura decorativa — aniversário</title>
+  <defs>
+    <linearGradient id="bgFesta" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#647040"/>
+      <stop offset="100%" stop-color="#FAB534"/>
+    </linearGradient>
+    <filter id="blurFesta"><feGaussianBlur stdDeviation="55"/></filter>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgFesta)"/>
+  <circle cx="130" cy="160" r="230" fill="#FDF4E5" opacity="0.15" filter="url(#blurFesta)"/>
+  <circle cx="670" cy="850" r="260" fill="#25360A" opacity="0.16" filter="url(#blurFesta)"/>
+  <g transform="translate(400,500)" opacity="0.24" fill="none" stroke="#FDF4E5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="-70" cy="-30" rx="48" ry="62"/>
+    <path d="M -70 32 L -78 60 L -62 60 Z" fill="#FDF4E5" stroke="none"/>
+    <path d="M -70 60 C -60 100 -80 130 -70 160" stroke-width="4"/>
+    <ellipse cx="60" cy="10" rx="48" ry="62"/>
+    <path d="M 60 72 L 52 100 L 68 100 Z" fill="#FDF4E5" stroke="none"/>
+    <path d="M 60 100 C 70 130 50 150 60 170" stroke-width="4"/>
+    <path d="M -150 -150 L -134 -134 M -150 -134 L -134 -150" stroke-width="5"/>
+    <path d="M 150 -110 L 166 -94 M 150 -94 L 166 -110" stroke-width="5"/>
+  </g>
+</svg>

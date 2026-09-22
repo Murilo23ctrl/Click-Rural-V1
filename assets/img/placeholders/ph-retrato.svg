@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice">
+  <title>Textura decorativa — retrato</title>
+  <defs>
+    <linearGradient id="bgRetrato" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#25360A"/>
+      <stop offset="100%" stop-color="#647040"/>
+    </linearGradient>
+    <filter id="blurRetrato"><feGaussianBlur stdDeviation="60"/></filter>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgRetrato)"/>
+  <circle cx="600" cy="260" r="260" fill="#FAB534" opacity="0.22" filter="url(#blurRetrato)"/>
+  <circle cx="160" cy="780" r="240" fill="#FDF4E5" opacity="0.1" filter="url(#blurRetrato)"/>
+  <g transform="translate(400,500)" opacity="0.2" fill="none" stroke="#FDF4E5" stroke-width="5">
+    <circle r="140"/>
+    <circle r="92"/>
+    <path d="M 0 -140 L 0 -112 M 0 140 L 0 112 M -140 0 L -112 0 M 140 0 L 112 0 M -99 -99 L -79 -79 M 99 99 L 79 79 M 99 -99 L 79 -79 M -99 99 L -79 79" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>
