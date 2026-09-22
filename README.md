@@ -1,4 +1,4 @@
-# Flick Rural — Site
+# Click Rural — Site
 
 Site institucional de uma página (one-page) para a fotógrafa Flick Rural, construído em HTML, CSS e JavaScript puros (sem frameworks, sem etapa de build).
 
